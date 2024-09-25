@@ -18,7 +18,7 @@ tickerSymbol = 'BTC-USD'
 tickerData = yf.Ticker(tickerSymbol)
 
 # Get the historical prices for this ticker
-tickerDf = tickerData.history(period='1d', start='2020-1-1', end='2023-10-24')
+tickerDf = tickerData.history(period='1d', start='2021-1-1', end='2024-09-24')
 
 df = tickerDf.reset_index() # reset the index
 df = pd.DataFrame(df) # convert the data to a dataframe
