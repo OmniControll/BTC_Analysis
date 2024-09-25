@@ -18,6 +18,9 @@ The project covers several key areas of financial data analysis:
 - **Polynomial Regression**: Polynomial regression of degree 3 is applied to capture the non-linear trends in the BTC price.
 - **Moving Average Crossover**: A crossover strategy is implemented using short (20-day) and long (100-day) moving averages to capture trends in price momentum.
 
+  ![image](https://github.com/user-attachments/assets/a8c5a5aa-f246-4c59-8ab8-e0ad97222435)
+
+
 ## **Data Source**
 
 The data used for this analysis is fetched from Yahoo Finance, covering the period from **January 2021** to **September 2024**.
